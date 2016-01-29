@@ -1,7 +1,10 @@
 # [Padrões de Projeto] Meu Catálogo
 Meu catálogo com os padrões de projeto que aprendi.
 
-Bibliografia
+## Estrutural
+* [Decorator](src/padroes/estrutural/decorator/v0)
+
+## Bibliografia
 
 * Aulas OO na Furb
 * https://brizeno.wordpress.com/padroes/
