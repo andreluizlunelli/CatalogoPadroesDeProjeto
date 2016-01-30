@@ -7,7 +7,7 @@ Meu catálogo com os padrões de projeto que aprendi.
 ## Comportamental
 * [Strategy](src/padroes/comportamental/strategy)
 
-## Bibliografia
+# Bibliografia
 
 * Aulas OO na Furb
 * https://brizeno.wordpress.com/padroes/
