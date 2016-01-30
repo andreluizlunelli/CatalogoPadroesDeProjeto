@@ -4,6 +4,9 @@ Meu catálogo com os padrões de projeto que aprendi.
 ## Estrutural
 * [Decorator/Wrapper](src/padroes/estrutural/decorator)
 
+## Comportamental
+* [Strategy](src/padroes/comportamental/strategy)
+
 ## Bibliografia
 
 * Aulas OO na Furb
