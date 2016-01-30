@@ -2,7 +2,7 @@
 Meu catálogo com os padrões de projeto que aprendi.
 
 ## Estrutural
-* [Decorator](src/padroes/estrutural/decorator/v0)
+* [Decorator/Wrapper](src/padroes/estrutural/decorator/v0)
 
 ## Bibliografia
 
