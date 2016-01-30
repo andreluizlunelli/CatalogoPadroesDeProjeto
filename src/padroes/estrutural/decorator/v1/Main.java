@@ -13,6 +13,5 @@ public class Main {
 
         p = new Forte(p);
         System.out.println(p);
-
     }
 }
