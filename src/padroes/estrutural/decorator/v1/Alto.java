@@ -10,6 +10,6 @@ public class Alto extends Decorator {
     }
 
     public Alto() {
-        this.setqualidade("alto");
+        this.setQualidade("Alto");
     }
 }
