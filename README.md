@@ -1,6 +1,9 @@
 # [Padrões de Projeto] Meu Catálogo
 Meu catálogo com os padrões de projeto que aprendi.
 
+## Criação
+* [FactoryMethod/SimpleFactory](src/padroes/criacao/factoryMethod)
+
 ## Estrutural
 * [Decorator/Wrapper](src/padroes/estrutural/decorator)
 
