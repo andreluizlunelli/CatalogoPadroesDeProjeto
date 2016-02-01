@@ -1,4 +1,4 @@
-# [Padrões de Projeto] Meu Catálogo
+# [Padrões de Projeto] Catálogo
 Catálogo com os padrões de projeto compreendidos.
 
 ## Criação
