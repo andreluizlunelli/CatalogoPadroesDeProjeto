@@ -1,5 +1,5 @@
 # [Padrões de Projeto] Meu Catálogo
-Meu catálogo com os padrões de projeto que aprendi.
+Catálogo com os padrões de projeto compreendidos.
 
 ## Criação
 * [FactoryMethod/SimpleFactory](src/padroes/criacao/factoryMethod)
