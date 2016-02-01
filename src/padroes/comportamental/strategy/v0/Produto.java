@@ -8,6 +8,12 @@ public class Produto {
     private double peso;
     private double valor;
 
+    public Produto(String descricao, double peso, double valor) {
+        this.descricao = descricao;
+        this.peso = peso;
+        this.valor = valor;
+    }
+
     public String getDescricao() {
         return descricao;
     }

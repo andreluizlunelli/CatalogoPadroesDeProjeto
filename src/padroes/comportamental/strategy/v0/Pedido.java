@@ -14,7 +14,7 @@ public class Pedido {
     private int numero;
     private TipoEntregaStrategy tipoEntrega;
 
-    public void incluirItemPedido(Produto p, int qtd) {
+    public void incluirItem(Produto p, int qtd) {
         ItemDePedido itemPedido = new ItemDePedido();
         itemPedido.setProduto(p);
         itemPedido.setQtd(qtd);
@@ -22,8 +22,15 @@ public class Pedido {
     }
 
     public double getPesoTotal() {
-        // todo continuar a implementação
-        return 0;
+        double peso = 0;
+        for (ItemDePedido item : itens) {
+            peso = peso + item.getProduto().getPeso() * item.getQtd();
+        }
+        return peso;
+    }
+
+    public double calcularEntrega() {
+        return tipoEntrega.calcular(this);
     }
 
     public Calendar getData() {
