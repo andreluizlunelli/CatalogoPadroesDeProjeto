@@ -8,6 +8,7 @@ public class Main {
 
         /** Exemplo de uso do Padrão Strategy
          *  linha:23
+         *  a
          */
 
         Produto p1 = new Produto("Livro", 85.60, 320);
