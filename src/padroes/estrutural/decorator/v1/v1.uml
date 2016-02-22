@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>padroes.estrutural.decorator.v1</OriginalElement>
+  <nodes>
+    <node x="-137.0" y="182.0">padroes.estrutural.decorator.v1.Pessoa</node>
+    <node x="117.5" y="133.0">padroes.estrutural.decorator.v1.Decorator</node>
+    <node x="337.0" y="381.0">padroes.estrutural.decorator.v1.Forte</node>
+    <node x="162.0" y="381.0">padroes.estrutural.decorator.v1.Bonito</node>
+    <node x="0.0" y="381.0">padroes.estrutural.decorator.v1.Alto</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="padroes.estrutural.decorator.v1.Alto" target="padroes.estrutural.decorator.v1.Decorator">
+      <point x="0.0" y="-36.5" />
+      <point x="71.0" y="356.0" />
+      <point x="156.83333333333331" y="356.0" />
+      <point x="-82.66666666666669" y="92.5" />
+    </edge>
+    <edge source="padroes.estrutural.decorator.v1.Bonito" target="padroes.estrutural.decorator.v1.Decorator">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="padroes.estrutural.decorator.v1.Decorator" target="padroes.estrutural.decorator.v1.Pessoa">
+      <point x="0.0" y="-92.5" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="padroes.estrutural.decorator.v1.Forte" target="padroes.estrutural.decorator.v1.Decorator">
+      <point x="0.0" y="-36.5" />
+      <point x="410.5" y="356.0" />
+      <point x="322.1666666666667" y="356.0" />
+      <point x="82.66666666666669" y="92.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="110.5" y="251.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
