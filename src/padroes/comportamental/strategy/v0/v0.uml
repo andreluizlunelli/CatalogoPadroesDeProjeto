@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>padroes.comportamental.strategy.v0</OriginalElement>
+  <nodes>
+    <node x="884.0" y="700.5">padroes.comportamental.strategy.v0.TipoEntregaEncomendaPac</node>
+    <node x="0.0" y="513.0">padroes.comportamental.strategy.v0.Pedido</node>
+    <node x="486.0" y="700.5">padroes.comportamental.strategy.v0.TipoEntregaRetiradaLocal</node>
+    <node x="25.890625" y="0.0">padroes.comportamental.strategy.v0.Produto</node>
+    <node x="581.0208333333334" y="356.5">padroes.comportamental.strategy.v0.TipoEntregaStrategy</node>
+    <node x="685.0" y="700.5">padroes.comportamental.strategy.v0.TipoEntregaSedex</node>
+    <node x="891.75" y="356.5">padroes.comportamental.strategy.v0.PesoEntregaInvalidoException</node>
+    <node x="63.390625" y="301.0">padroes.comportamental.strategy.v0.ItemDePedido</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="padroes.comportamental.strategy.v0.ItemDePedido" target="padroes.comportamental.strategy.v0.Produto">
+      <point x="0.0" y="-81.0" />
+      <point x="0.0" y="125.5" />
+    </edge>
+    <edge source="padroes.comportamental.strategy.v0.TipoEntregaSedex" target="padroes.comportamental.strategy.v0.TipoEntregaStrategy">
+      <point x="0.0" y="-25.5" />
+      <point x="774.5" y="493.0" />
+      <point x="692.8958333333334" y="493.0" />
+      <point x="22.375" y="25.5" />
+    </edge>
+    <edge source="padroes.comportamental.strategy.v0.TipoEntregaEncomendaPac" target="padroes.comportamental.strategy.v0.PesoEntregaInvalidoException">
+      <point x="44.75" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="padroes.comportamental.strategy.v0.Pedido" target="padroes.comportamental.strategy.v0.TipoEntregaStrategy">
+      <point x="174.75" y="-213.0" />
+      <point x="407.75" y="483.0" />
+      <point x="603.3958333333334" y="483.0" />
+      <point x="-67.125" y="25.5" />
+    </edge>
+    <edge source="padroes.comportamental.strategy.v0.TipoEntregaEncomendaPac" target="padroes.comportamental.strategy.v0.TipoEntregaStrategy">
+      <point x="-44.75" y="-25.5" />
+      <point x="928.75" y="483.0" />
+      <point x="737.6458333333334" y="483.0" />
+      <point x="67.125" y="25.5" />
+    </edge>
+    <edge source="padroes.comportamental.strategy.v0.Pedido" target="padroes.comportamental.strategy.v0.ItemDePedido">
+      <point x="-58.25" y="-213.0" />
+      <point x="174.75" y="493.0" />
+      <point x="184.390625" y="493.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="padroes.comportamental.strategy.v0.TipoEntregaRetiradaLocal" target="padroes.comportamental.strategy.v0.TipoEntregaStrategy">
+      <point x="2.8421709430404007E-14" y="-25.5" />
+      <point x="575.5" y="493.0" />
+      <point x="648.1458333333334" y="493.0" />
+      <point x="-22.375" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6999999999999993" x="598.1428571428579" y="363.28571428571473" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
