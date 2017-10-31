@@ -1,0 +1,25 @@
+{
+    "name": "andreluizlunelli/catalogopadroesdeprojeto",
+    "description": "Catálogo com os padrões de projeto compreendidos.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "andreluizlunelli",
+            "email": "to.lunelli@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+	"autoload": {
+		"psr-4": {
+			"CatalogoPadroesDeProjeto\\":"src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"CatalogoPadroesDeProjetoTest\\":"test/"
+		}
+	}
+}
