@@ -9,7 +9,7 @@ Catálogo com os padrões de projeto compreendidos.
 * [Adapter](php/test/Adapter/v0/AdapterV0MainTest.php)
 
 ## Comportamental
-* [Strategy](java/src/main/java/comportamental/strategy)
+* [Strategy](java/src/main/java/padroes/comportamental/strategy)
 
 ## Relacionamento Diagrama
 ![alt tag](relacionamentos_diagrama.jpg)
