@@ -2,14 +2,14 @@
 Catálogo com os padrões de projeto compreendidos.
 
 ## Criação
-* [FactoryMethod/SimpleFactory](java/src/padroes/criacao/factoryMethod)
+* [FactoryMethod/SimpleFactory](java/src/main/java/padroes/criacao/factoryMethod)
 
 ## Estrutural
-* [Decorator](java/src/padroes/estrutural/decorator)
+* [Decorator](java/src/main/java/padroes/estrutural/decorator)
 * [Adapter](php/test/Adapter/v0/AdapterV0MainTest.php)
 
 ## Comportamental
-* [Strategy](java/src/padroes/comportamental/strategy)
+* [Strategy](java/src/main/java/comportamental/strategy)
 
 ## Relacionamento Diagrama
 ![alt tag](relacionamentos_diagrama.jpg)
