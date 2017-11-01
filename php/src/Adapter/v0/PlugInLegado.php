@@ -6,10 +6,16 @@
 
 namespace CatalogoPadroesDeProjeto\Adapter\v0;
 
-class PlugInLegado implements PlugInInterface
+/**
+ * Essa classe não pode ser alterada pois é legado
+ *
+ * Class PlugInLegado
+ * @package CatalogoPadroesDeProjeto\Adapter\v0
+ */
+class PlugInLegado
 {
 
-    public function conectar(): string
+    public function connect()
     {
         return "PlugInLegado";
     }

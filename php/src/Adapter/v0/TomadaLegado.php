@@ -9,8 +9,8 @@ namespace CatalogoPadroesDeProjeto\Adapter\v0;
 class TomadaLegado
 {
 
-    public function conectar(PlugInInterface $plugIn)
+    public function conecta(PlugInLegado $plugIn)
     {
-        echo $plugIn->conectar();
+        return sprintf("Conectou com %s", $plugIn->connect());
     }
 }
